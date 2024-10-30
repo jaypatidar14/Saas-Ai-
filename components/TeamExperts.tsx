@@ -180,7 +180,7 @@ const TeamGrid: React.FC = () => {
         companies of all sizes to attract top talent.
       </p>
 
-      {/* <div className="grid grid-rows-7 grid-flow-col grid-cols-7 gap-4 mx-auto max-w-5xl "> */}
+      <div className="grid grid-rows-7 grid-flow-col grid-cols-7 gap-4 mx-auto max-w-5xl ">
         <div className="col-start-4 row-start-1 flex justify-center">
           <TeamExperts id={1} />
         </div>
@@ -229,7 +229,7 @@ const TeamGrid: React.FC = () => {
         <div className="col-start-4 row-start-7 flex justify-center">
           <TeamExperts id={16} />
         </div>
-      {/* </div> */}
+      </div>
     </section>
   );
 };
